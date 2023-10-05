@@ -1,0 +1,21 @@
+.ctaButton {
+  // background-color: #00CCFF;  /* CTA Color */
+  background-color: var(--ifm-color-primary);  /* CTA Color */
+  color: #FAFAFA;            
+  padding: 12px 24px;
+  border-radius: 6px;
+  border: none;
+  text-align: center;
+  text-decoration: none !important;
+  display: inline-block;
+  font-size: 1rem;
+  font-family: var(--ifm-font-family-base);
+  transition: 0.2s ease-out;
+  cursor: pointer;
+  box-shadow: 2px 2px 12px #8080804D;  /* Accent Color 1 with reduced opacity for shadow */
+}
+
+.ctaButton:hover {
+  background-color: #FFD700;  /* Secondary Color for hover effect */
+  color: #fff;             /* Accent Color 2 for text contrast */
+}

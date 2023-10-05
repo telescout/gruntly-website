@@ -1,0 +1,31 @@
+.target-audience-section {
+  background: #f9f9f9;
+
+  .audience-segment {
+    background: #fff;
+    padding: 15px;
+    border-radius: 3px;
+    margin-bottom: 20px;
+    transition: transform 0.3s, box-shadow 0.3s;
+
+    &:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    }
+
+    h4 {
+      margin-bottom: 10px;
+      display: flex;
+      align-items: center;
+
+      span.icon {
+        font-size: 1.5rem;
+        margin-right: 8px;
+      }
+    }
+
+    p {
+      font-size: 0.95rem;
+    }
+  }
+}

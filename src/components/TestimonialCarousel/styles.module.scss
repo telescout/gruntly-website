@@ -1,0 +1,112 @@
+.testimonial-carousel {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+
+  display: flex;
+  align-items: center;
+
+  // Mobile Optimization
+  @media (max-width: 768px) {
+    padding: 20px;
+  }
+
+  .testimonial-carousel-items {
+    display: flex;
+  }
+
+  .testimonial {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 21em;
+
+    flex: 1 0 33.33%; /* Take up one-third of the container */
+
+    img {
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      margin-bottom: 20px;
+      object-fit: cover;
+      border: 2px solid #ddd;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      
+      // Mobile Optimization
+      @media (max-width: 768px) {
+        width: 80px;
+        height: 80px;
+      }
+    }
+
+    h3 {
+      font-size: 1.2em;
+      margin-bottom: 10px;
+      font-weight: bold;
+
+      // Mobile Optimization
+      @media (max-width: 768px) {
+        font-size: 1em;
+      }
+    }
+
+    p {
+      font-size: 1em;
+      max-width: 80%;
+      text-align: center;
+
+      // Mobile Optimization
+      @media (max-width: 768px) {
+        max-width: 90%;
+        font-size: 0.9em;
+      }
+    }
+  }
+
+  button {
+    font-size: 1em;
+    margin: 10px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    
+    &:hover {
+      background-color: #555;
+    }
+
+    // Mobile Optimization
+    @media (max-width: 768px) {
+      padding: 5px 10px;
+      font-size: 0.9em;
+    }
+  }
+
+  .dots {
+    display: flex;
+    justify-content: center;
+    // margin-top: 15px;
+
+    .dot {
+      width: 10px;
+      height: 10px;
+      background-color: #ddd;
+      border-radius: 50%;
+      margin: 0 5px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+
+      &.active {
+        background-color: #555;
+      }
+
+      &:hover {
+        background-color: #555;
+      }
+    }
+  }
+}

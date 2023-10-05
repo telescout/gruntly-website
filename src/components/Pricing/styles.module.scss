@@ -1,0 +1,76 @@
+.pricing-section {
+  background-color: #f9f9f9;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+
+  p {
+    margin-bottom: 1.5rem;
+    width: 100%;
+  }
+
+  .plan {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 2rem;
+    margin-bottom: 2rem;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    flex: 0 0 48%; // This makes each plan take up roughly half the container width
+
+    ul {
+      list-style-type: none;
+      margin-left: 0;
+
+      li {
+        margin-bottom: 0.5rem;
+        font-size: 1rem;
+        color: #555;
+
+        &::before {
+          content: "•";
+          color: #007BFF; // Bright Blue for list dots
+          margin-right: 10px;
+          display: inline-block;
+        }
+      }
+    }
+  }
+
+  .free-plan {
+
+    h3,
+    p strong {
+      color: var(--ifm-color-primary-lighter); // Bright Blue for emphasis in the Free Plan
+    }
+  }
+
+  .full-plan {
+
+    h3,
+    p strong {
+      color: #FF5733; // A slightly bright orange for emphasis in the Full Plan
+    }
+  }
+
+  .full-plan-description,
+  .upgrade-info {
+    background-color: #e8e8e8; // Slightly darker than the main background for distinction
+    padding: 1rem 2rem;
+    border-radius: 5px;
+    margin-bottom: 2rem;
+    width: 100%; // Take up full width
+  }
+
+  .get-started-section {
+    text-align: center;
+    width: 100%; // Take up full width
+
+    // p {
+    //   font-size: 1.3rem;
+    //   color: #555;
+    //   max-width: 800px;
+    //   margin: 1rem auto; // Centering the paragraph
+    // }
+  }
+}
