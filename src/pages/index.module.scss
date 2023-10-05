@@ -1,8 +1,14 @@
 header {
   padding: 6em var(--global-padding);
   background-color: var(--ifm-color-primary);
+  background-image: url('../../static/img/hero.png');
+  background-position: top center;
   color: white;
   text-align: center;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 
   h1 {
     font-size: 2.5em;
@@ -11,6 +17,7 @@ header {
 
   p {
     font-size: 1.2em;
+    max-width: 30em;
   }
 }
 .heroBanner {

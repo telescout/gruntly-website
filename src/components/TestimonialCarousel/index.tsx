@@ -15,37 +15,37 @@ const testimonials: Testimonial[] = [
     name: "Maria",
     title: "Tech Entrepreneur",
     text: "With multiple startups under my wing, staying updated became a chore. Gruntly curates all the news I care about, making sure I don't miss anything critical. It's like having a personal assistant for all my channels!",
-    imageSrc: "path/to/maria.jpg"
+    imageSrc: "/img/maria.jpg"
   },
   {
     name: "Alex",
     title: "Financial Analyst",
     text: "In the finance world, missing a key update can be costly. Gruntly ensures I'm always in the loop without being overwhelmed. I've spotted several opportunities just from the digests it sends!",
-    imageSrc: "path/to/alex.jpg"
+    imageSrc: "/img/alex.jpg"
   },
   {
     name: "Hannah",
     title: "Content Creator",
     text: "I create content across niches, and Gruntly helps me stay updated on all of them. It filters out the noise, letting me focus on what truly matters for my audience. My research time has been cut in half!",
-    imageSrc: "path/to/hannah.jpg"
+    imageSrc: "/img/hannah.jpg"
   },
   {
     name: "Raj",
     title: "Gaming Enthusiast",
     text: "As a gaming enthusiast, I love being updated but hated the clutter. With Gruntly, I get updates about the games and communities I care about. It's like a newsfeed tailored just for me.",
-    imageSrc: "path/to/raj.jpg"
+    imageSrc: "/img/raj.jpg"
   },
   {
     name: "Isabel",
     title: "CEO",
     text: "Running a company requires informed decisions. With Gruntly, I get the relevant news from my industry without wading through endless messages. It's streamlined, efficient, and an absolute game-changer for executives.",
-    imageSrc: "path/to/isabel.jpg"
+    imageSrc: "/img/isabel.jpg"
   },
   {
     name: "Liam",
     title: "Freelance Web Developer",
     text: "Juggling multiple clients means I need to stay on top of various industries. Gruntly does the heavy lifting, giving me curated updates so I can serve my clients better. It's my secret weapon to staying informed!",
-    imageSrc: "path/to/liam.jpg"
+    imageSrc: "/img/liam.jpg"
   }
 ];
 

@@ -38,8 +38,7 @@ const audienceData = [
 const TargetAudience: React.FC = () => {
   return (
     <section className={styles["target-audience-section"]}>
-      <h2>Target Audience</h2>
-      <h3>Who Benefits from Gruntly?</h3>
+      <h2>Who Benefits from Gruntly?</h2>
       <p>Gruntly isn't just a tool; it's your personalized assistant...</p>
       {audienceData.map((segment, index) => (
         <div key={index} className={styles["audience-segment"]}>
