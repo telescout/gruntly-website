@@ -91,7 +91,7 @@ function HowItWorks() {
           Begin your journey with Gruntly in an interactive dialogue. Here, you'll introduce us to your unique interests and preferences.
           Think of it as setting the stage for Gruntly to truly understand what you're looking for in the vast sea of information.
         </p>
-        <ImageComponent description="An illustrative representation of a user engaging in a friendly chat with Gruntly, with various interest icons floating around." src="/path/to/image1.jpg" />
+        {/* <ImageComponent description="An illustrative representation of a user engaging in a friendly chat with Gruntly, with various interest icons floating around." src="/path/to/image1.jpg" /> */}
       </div>
 
       <div>
@@ -100,7 +100,7 @@ function HowItWorks() {
           Got a channel you're keen on? Simply forward any message from that channel to Gruntly. It's your way of telling us, "Hey, I find this interesting!"
           From there, we'll keep an eye on it, scanning and analyzing content as it rolls in.
         </p>
-        <ImageComponent description="A collage showing different message icons being directed towards the Gruntly logo." src="/path/to/image2.jpg" />
+        {/* <ImageComponent description="A collage showing different message icons being directed towards the Gruntly logo." src="/path/to/image2.jpg" /> */}
       </div>
 
       <div>
@@ -109,7 +109,7 @@ function HowItWorks() {
           Our advanced algorithms get to work, sifting through the plethora of messages. Gruntly distinguishes between what's relevant to you and what's not, ensuring only the gems make it through.
           It's like having a personal librarian who knows precisely which book you'd love next.
         </p>
-        <ImageComponent description="Gears and neural networks intertwined with Gruntly at the center, representing its analytical prowess." src="/path/to/image3.jpg" />
+        {/* <ImageComponent description="Gears and neural networks intertwined with Gruntly at the center, representing its analytical prowess." src="/path/to/image3.jpg" /> */}
       </div>
 
       <div>
@@ -118,7 +118,7 @@ function HowItWorks() {
           At your chosen frequency, Gruntly will send you a digest of all the significant messages, neatly organized by interest category.
           It's concise, relevant, and designed to give you maximum insight in minimum time. Say goodbye to endless scrolling and hello to targeted reading!
         </p>
-        <ImageComponent description="A visual representation of the Gruntly digest, with highlighted snippets of messages and statistical insights." src="/path/to/image4.jpg" />
+        {/* <ImageComponent description="A visual representation of the Gruntly digest, with highlighted snippets of messages and statistical insights." src="/path/to/image4.jpg" /> */}
       </div>
 
       <div>
@@ -127,7 +127,7 @@ function HowItWorks() {
           Interests change, and Gruntly gets that. Easily edit your preferences, add or remove channels, and tweak your digest frequency whenever you wish.
           It's all about giving you control over the information you consume.
         </p>
-        <ImageComponent description="A user interface dashboard showing customizable settings and toggles, emphasizing user control." src="/path/to/image5.jpg" />
+        {/* <ImageComponent description="A user interface dashboard showing customizable settings and toggles, emphasizing user control." src="/path/to/image5.jpg" /> */}
       </div>
 
       <div className="cta-container">

@@ -16,6 +16,14 @@
     display: flex;
   }
 
+  .items-wrapper {
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    height: 22em;
+  }
+
   .testimonial {
     display: flex;
     flex-direction: column;
@@ -23,6 +31,7 @@
     height: 21em;
 
     flex: 1 0 33.33%; /* Take up one-third of the container */
+    min-width: 20em;
 
     img {
       width: 100px;

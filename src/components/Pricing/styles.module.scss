@@ -73,4 +73,11 @@
     //   margin: 1rem auto; // Centering the paragraph
     // }
   }
+
+}
+@media screen and (max-width: 996px) {
+  .pricing-section {
+    flex-direction: column;
+  }
+
 }

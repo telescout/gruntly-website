@@ -73,6 +73,7 @@ const TestimonialCarousel: React.FC = () => {
 
   return (
     <section className={styles["testimonial-carousel"]}>
+      <div className={styles["items-wrapper"]}>
       <div className={styles["testimonial-carousel-items"]}>
       {testimonials.slice(currentIndex, currentIndex + 3).map((testimonial, index) => (
         <div key={index} className={styles["testimonial"]}>
@@ -81,6 +82,7 @@ const TestimonialCarousel: React.FC = () => {
           <p>"{testimonial.text}"</p>
         </div>
       ))}
+      </div>
       </div>
       <div className={styles["dots"]}>
         {Array.from({ length: totalDots }).map((_, idx) => (
