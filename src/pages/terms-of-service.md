@@ -54,4 +54,4 @@ We may revise these Terms from time to time. The most current version will alway
 
 ## 13. Contact Information
 
-For any questions regarding these Terms, please contact us at support@gruntly.ai
+For any questions regarding these Terms, please contact us at support@gruntly.co

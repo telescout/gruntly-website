@@ -12,7 +12,7 @@ title: Privacy Policy
 
 ## 1. Introduction
 
-Welcome to Gruntly, a service provided by WeedyDidie LLC ("we", "our", or "us"). We are committed to protecting your personal information and your right to privacy. If you have any questions or concerns about this privacy policy or our practices with regards to your personal information, please contact us at [Insert Contact Email].
+Welcome to Gruntly, a service provided by WeedyDidie LLC ("we", "our", or "us"). We are committed to protecting your personal information and your right to privacy. If you have any questions or concerns about this privacy policy or our practices with regards to your personal information, please contact us at support@gruntly.co.
 
 ---
 
@@ -67,7 +67,7 @@ As a user, you have the right to:
 - **Modify**: Update or correct your data.
 - **Delete**: Ask us to delete your personal data.
 
-If you wish to exercise these rights, please contact us at [Insert Contact Email].
+If you wish to exercise these rights, please contact us at support@gruntly.co.
 
 ---
 
@@ -85,4 +85,4 @@ We may update this privacy policy from time to time in response to changing lega
 
 ## 10. Contact Us
 
-For any questions, concerns, or feedback regarding this privacy policy, please contact: support@gruntly.com
+For any questions, concerns, or feedback regarding this privacy policy, please contact: support@gruntly.co

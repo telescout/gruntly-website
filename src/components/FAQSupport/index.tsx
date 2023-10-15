@@ -37,7 +37,7 @@ const faqs: FAQItem[] = [
   },
   {
     question: "I'm facing issues with my current subscription. Who do I contact?",
-    answer: <p>We're here to help! Please reach out to our support team at <a href="mailto:support@gruntly.com">support@gruntly.com</a> or click the 'Support' button on our website.</p>
+    answer: <p>We're here to help! Please reach out to our support team at <a href="mailto:support@gruntly.co">support@gruntly.co</a> or click the 'Support' button on our website.</p>
   },
   {
     question: "How often will I receive digests from Gruntly?",
@@ -53,7 +53,7 @@ const faqs: FAQItem[] = [
   },
   {
     question: "Do you offer enterprise solutions or bulk subscriptions?",
-    answer: <p>Yes, we cater to businesses and offer enterprise-level solutions. Please contact our sales team at <a href="mailto:sales@gruntly.com">sales@gruntly.com</a> for more details.</p>
+    answer: <p>Yes, we cater to businesses and offer enterprise-level solutions. Please contact our sales team at <a href="mailto:sales@gruntly.co">sales@gruntly.co</a> for more details.</p>
   }
 ];
 
@@ -75,7 +75,7 @@ const FAQSupport: React.FC = () => {
       ))}
 
       <div className={styles["supportContact"]}>
-        <p>For any other questions or immediate support, please don't hesitate to <a href="mailto:support@gruntly.com">reach out</a> to our dedicated support team. We're here to assist you!</p>
+        <p>For any other questions or immediate support, please don't hesitate to <a href="mailto:support@gruntly.co">reach out</a> to our dedicated support team. We're here to assist you!</p>
       </div>
     </section>
   );
