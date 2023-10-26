@@ -141,3 +141,17 @@ section {
     /* Accent Color 2 for text contrast */
   }
 }
+
+article[itemprop="blogPost"] header {
+  background: none;
+  padding-top: 3em;
+  padding-bottom: 3em;
+  color: var(--ifm-color-gray-800);
+
+  h1 {
+    color: var(--ifm-color-primary);
+    margin-bottom: 30px;
+    padding-bottom: 0.2em;
+    border-bottom: 2px solid var(--ifm-color-secondary);
+  }
+}
