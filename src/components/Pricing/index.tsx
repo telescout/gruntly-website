@@ -38,8 +38,8 @@ const Pricing: React.FC = () => {
           <li>Advanced Statistics: Deep dive into analyzed channels, messages, and more.</li>
         </ul>
         <p><strong>Ideal for</strong>: Professionals, content creators, investors, and anyone looking to maximize their information intake.</p>
-        <CTAButton telegramHandle="GruntlyBot" label="Start 1-Month Free Trial" />
-        <p><strong>Special Offer</strong>: Not sure if the Full Plan is for you? Try it out! We're giving every new user a <strong>1-month free trial</strong> of the Full Plan. Experience all the features without any commitments.</p>
+        <CTAButton telegramHandle="GruntlyBot" label="Start 10-Days Free Trial" />
+        <p><strong>Special Offer</strong>: Not sure if the Full Plan is for you? Try it out! We're giving every new user a <strong>10-days free trial</strong> of the Full Plan. Experience all the features without any commitments.</p>
       </div>
 
       <div className={styles["full-plan-description"]}>

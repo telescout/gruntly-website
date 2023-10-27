@@ -37,7 +37,7 @@ const faqs: FAQItem[] = [
   },
   {
     question: "I'm facing issues with my current subscription. Who do I contact?",
-    answer: <p>We're here to help! Please reach out to our support team at <a href="mailto:support@gruntly.co">support@gruntly.co</a> or click the 'Support' button on our website.</p>
+    answer: <p>We're here to help! Please reach out to our support team at <a href="mailto:support@gruntly.co">support@gruntly.co</a> or via the <a href='https://t.me/gruntly_support_bot'>@gruntly_support_bot</a>.</p>
   },
   {
     question: "How often will I receive digests from Gruntly?",
@@ -75,7 +75,7 @@ const FAQSupport: React.FC = () => {
       ))}
 
       <div className={styles["supportContact"]}>
-        <p>For any other questions or immediate support, please don't hesitate to <a href="mailto:support@gruntly.co">reach out</a> to our dedicated support team. We're here to assist you!</p>
+        <p>For any other questions or immediate support, please don't hesitate to <a href="https://t.me/gruntly_support_bot">reach out</a> to our dedicated support team. We're here to assist you!</p>
       </div>
     </section>
   );
