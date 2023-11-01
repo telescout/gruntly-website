@@ -36,8 +36,8 @@ Gruntly is ideal for:
 
 ## Getting Started
 
-1. **[Onboarding](onboarding.md)**: This is the initial step where you'll set up your interests and get to know how Gruntly can serve you. It's essential to ensure that the messages in your digest are closely aligned with your interests.
+1. **[Onboarding](onboarding)**: This is the initial step where you'll set up your interests and get to know how Gruntly can serve you. It's essential to ensure that the messages in your digest are closely aligned with your interests.
 
-2. **[Adding Channels](adding-channels.md)**: The next step is to add Telegram channels or groups that you want Gruntly to monitor. This is where Gruntly pulls the information for your daily digest.
+2. **[Adding Channels](adding-channels)**: The next step is to add Telegram channels or groups that you want Gruntly to monitor. This is where Gruntly pulls the information for your daily digest.
 
 Navigate through this documentation to get the most out of Gruntly. Let's dive in!

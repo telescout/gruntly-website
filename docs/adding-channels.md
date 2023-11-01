@@ -58,8 +58,8 @@ Don't be alarmed if you don't see the new channel in your settings right away. Y
 
 ## Additional Notes
 
-For more information on editing channel settings, [refer to the Editing Settings guide](./editing-settings.md).
+For more information on editing channel settings, [refer to the Editing Settings guide](./editing-settings).
 
-To understand how Gruntly uses your channels to curate content, [read our guide on How Gruntly Works](./how-gruntly-works.md).
+To understand how Gruntly uses your channels to curate content, [read our guide on How Gruntly Works](./how-gruntly-works).
 
 That's it! You're all set to start receiving your personalized daily digests from Gruntly.
