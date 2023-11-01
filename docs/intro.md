@@ -1,47 +1,43 @@
 ---
 sidebar_position: 1
+id: intro
+title: Intro
+sidebar_label: Intro
+slug: /
 ---
 
-# Tutorial Intro
+# Welcome to Gruntly Documentation
 
-Let's discover **Docusaurus in less than 5 minutes**.
+Welcome to the official Gruntly documentation.
+
+Gruntly is more than just a Telegram bot; it's your personal assistant designed to filter the noise and deliver only the information that's relevant to you. With Gruntly, you no longer have to scroll through endless messages on multiple channels to find what matters.
+
+This service sends you a concise daily digest of all messages you'd find valuable, based on your specified interests and tasks.
+
+## Who Should Use Gruntly?
+
+Gruntly is ideal for:
+
+- **Professionals and Entrepreneurs**: Stay up-to-date in fast-moving industries like tech, finance, and startups.
+- **Content Creators & Researchers**: Keep a finger on the pulse of trending topics without wading through irrelevant information.
+- **Investors and Analysts**: Monitor market news, opportunities, and announcements across sectors.
+- **Busy Enthusiasts**: Stay informed on your favorite niche topics without wasting time.
+- **Decision Makers**: Receive summaries that matter to your industry, company, or domain.
+- **Freelancers and Consultants**: Juggle multiple projects and clients without missing crucial updates.
+
+## Key Features
+
+- [Onboarding](onboarding): Get started by defining your interests and familiarizing yourself with Gruntly's capabilities.
+- [Channel Monitoring](adding-channels): Choose the Telegram channels you want to keep an eye on.
+- Settings Management: Modify your interests and monitored channels anytime.
+- Subscription Plans: Opt between Free and Full plans to suit your needs.
+- User Statistics: Keep track of how many messages have been filtered out and what's making it to your digest.
+- Help and Support: Overview of features, news updates, FAQ, and support details.
 
 ## Getting Started
 
-Get started by **creating a new site**.
+1. **[Onboarding](onboarding)**: This is the initial step where you'll set up your interests and get to know how Gruntly can serve you. It's essential to ensure that the messages in your digest are closely aligned with your interests.
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+2. **[Adding Channels](adding-channels)**: The next step is to add Telegram channels or groups that you want Gruntly to monitor. This is where Gruntly pulls the information for your daily digest.
 
-### What you'll need
-
-- [Node.js](https://nodejs.org/en/download/) version 16.14 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
-
-## Generate a new site
-
-Generate a new Docusaurus site using the **classic template**.
-
-The classic template will automatically be added to your project after you run the command:
-
-```bash
-npm init docusaurus@latest my-website classic
-```
-
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
-
-The command also installs all necessary dependencies you need to run Docusaurus.
-
-## Start your site
-
-Run the development server:
-
-```bash
-cd my-website
-npm run start
-```
-
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
-
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
-
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
+Navigate through this documentation to get the most out of Gruntly. Let's dive in!
