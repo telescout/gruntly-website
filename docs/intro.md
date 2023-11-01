@@ -29,10 +29,10 @@ Gruntly is ideal for:
 
 - [Onboarding](onboarding): Get started by defining your interests and familiarizing yourself with Gruntly's capabilities.
 - [Channel Monitoring](adding-channels): Choose the Telegram channels you want to keep an eye on.
-- [Settings Management](settings): Modify your interests and monitored channels anytime.
-- [Subscription Plans](pricing): Opt between Free and Full plans to suit your needs.
-- [User Statistics](statistics): Keep track of how many messages have been filtered out and what's making it to your digest.
-- [Help and Support](help): Overview of features, news updates, FAQ, and support details.
+- Settings Management: Modify your interests and monitored channels anytime.
+- Subscription Plans: Opt between Free and Full plans to suit your needs.
+- User Statistics: Keep track of how many messages have been filtered out and what's making it to your digest.
+- Help and Support: Overview of features, news updates, FAQ, and support details.
 
 ## Getting Started
 
