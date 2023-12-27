@@ -16,9 +16,9 @@
   --ifm-code-font-size: 95%;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
   --ifm-background-color: #FAF3E0;
-  --ifm-font-family-base: 'Roboto', sans-serif;
-  --ifm-heading-font-family: 'Poppins', sans-serif;
-  --global-padding: max(62px + (100vw - 1308px) / 2, 2.5rem);
+  --ifm-font-family-base: 'Inter', sans-serif;
+  --ifm-heading-font-family: 'Inter', sans-serif;
+  --global-padding: max((100vw - 1200px) / 2, 2.5rem); // 40px
   --ifm-navbar-background-color: #FAFAFA;
 }
 
@@ -112,7 +112,7 @@ h3 {
 }
 
 section {
-  padding: 3em var(--global-padding);
+  padding: 0 var(--global-padding);
   display: flex;
   flex-direction: column;
 }
