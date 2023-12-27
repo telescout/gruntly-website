@@ -107,9 +107,15 @@
   .hero-section {
     .header {
       margin-right: 1em;
+      padding-bottom: 2.45em;
     }
     .subheader {
       margin-right: 1.3em;
     }
+    }
+  
+    .hero-content {
+      background-image: url('../../../static/img/hero-blur.webp');
+      margin-top: calc(5.625rem - var(--ifm-navbar-height));
   }
 }
