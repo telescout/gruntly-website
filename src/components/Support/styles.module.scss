@@ -1,0 +1,9 @@
+.support-section {
+  padding: 2rem 5rem;
+}
+
+@media screen and (max-width: 996px) {
+  .support-section {
+    padding: 0;
+  }
+}

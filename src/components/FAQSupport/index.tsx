@@ -9,7 +9,7 @@ type FAQItem = {
 const faqs: FAQItem[] = [
   {
     question: 'What is Gruntly?',
-    answer: <p>Gruntly is a personal assistant bot designed to monitor and analyze messages from various public sources, ensuring you only receive content tailored to your interests. Say goodbye to information overload and never miss out on important updates or news.</p>
+    answer: <p>Gruntly is a personal assistant bot designed to monitor and analyze messages from various public sources, ensuring you only receive content tailored to your interests.<br/><br/>Say goodbye to information overload and never miss out on important updates or news.</p>
   },
   {
     question: 'How do I set up Gruntly?',
@@ -63,20 +63,18 @@ const FAQSupport: React.FC = () => {
 
   return (
     <section className={styles["faqSupport"]}>
-      <h2>FAQ & Support</h2>
+      <h2>FAQ</h2>
 
-      {faqs.map((faq, index) => (
-        <div key={index} className={activeIndex === index ? styles["active"] : ""}>
-          <button onClick={() => setActiveIndex(index === activeIndex ? null : index)}>
-            {faq.question}
-          </button>
-          {activeIndex === index && <div>{faq.answer}</div>}
-        </div>
-      ))}
-
-      <div className={styles["supportContact"]}>
-        <p>For any other questions or immediate support, please don't hesitate to <a href="https://t.me/gruntly_support_bot">reach out</a> to our dedicated support team. We're here to assist you!</p>
-      </div>
+      {
+        faqs.map((faq, index) => (
+          <div key={index} className={activeIndex === index ? styles["active"] : ""}>
+            <button onClick={() => setActiveIndex(index === activeIndex ? null : index)}>
+              {faq.question}
+            </button>
+            {activeIndex === index && <div className={styles["answer"]}>{faq.answer}</div>}
+          </div>
+        ))
+      }
     </section>
   );
 };
