@@ -6,7 +6,7 @@
 
 /* You can override the default Infima variables here. */
 :root {
-  --ifm-color-primary: #003366;
+  --ifm-color-primary: #0305F3;
   --ifm-color-primary-dark: #002e5c;
   --ifm-color-primary-darker: #002b57;
   --ifm-color-primary-darkest: #002447;
@@ -202,14 +202,10 @@ section {
 
 article[itemprop="blogPost"] header {
   background: none;
-  padding-top: 3em;
-  padding-bottom: 3em;
-  color: var(--ifm-color-gray-800);
-
-  h1 {
-    color: var(--ifm-color-primary);
-    margin-bottom: 30px;
-    padding-bottom: 0.2em;
-    border-bottom: 2px solid var(--ifm-color-secondary);
+  padding: 0;
+  color: #000;
+  // text-align: left;
+  h2 {
+    margin: 0 0;
   }
 }
