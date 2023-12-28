@@ -1,0 +1,121 @@
+.hero-section {
+  .header {
+    color: #000;
+    font-family: Inter;
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    padding-top: 2.166666666666667em;
+    padding-left: 7.5rem;
+    padding-bottom: 4.45em;
+    max-width: 20em;
+    margin-right: 2.5em;
+
+    .highlighted {
+      display: inline-block;
+      position: relative;
+
+      img {
+        position: absolute;
+        z-index: -1;
+        left: -0.708333333333333em; //-34px;
+        top: -0.270833333333333em; //-13px;
+        width: 6.041666666666667em; //290px;
+        max-width: unset;
+      }
+
+      .highlightedImg2 {
+        z-index: 1;
+        opacity: 0.22;
+      }
+    }
+  }
+
+  .subheader {
+    color: #000;
+    font-family: Inter;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    padding-left: 7.5rem;
+    margin-right: 2em;
+    padding-top: 2.28125em;
+  }
+
+  .cta {
+    display: flex;
+    // align-items: center;
+    color: #000;
+    font-family: Inter;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    background-image: url('../../../static/img/arrow.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 9.375em;
+    margin-left: 0.7375em;
+    margin-bottom: 1em;
+
+    .content {
+      padding-left: 3em;
+      padding-top: 1.3em;
+    }
+  }
+}
+
+.hero-content {
+  display: flex;
+  // height: calc(100vh - var(--ifm-navbar-height));
+  flex-direction: column;
+  margin-top: calc(8.625rem - var(--ifm-navbar-height));
+
+  background-image: url('../../../static/img/hero.webp');
+  background-repeat: no-repeat;
+  background-position: right 0; //calc(8.625rem - var(--ifm-navbar-height));
+  background-size: contain;
+  // background-size: 10.9375rem;
+}
+
+@media screen and (max-width: 996px) {
+  .hero-section {
+
+    .header,
+    .subheader {
+      padding-left: 0;
+    }
+
+    .header {
+      font-size: 2rem;
+    }
+
+    .subheader,
+    .cta {
+      font-size: 1.333333333333333rem;
+    }
+  }
+}
+
+@media screen and (max-width: 500px) {
+  section {
+    padding-right: 0.625rem;
+  }
+
+  .hero-section {
+    .header {
+      margin-right: 1em;
+      padding-bottom: 2.45em;
+    }
+    .subheader {
+      margin-right: 1.3em;
+    }
+    }
+  
+    .hero-content {
+      background-image: url('../../../static/img/hero-blur.webp');
+      margin-top: calc(5.625rem - var(--ifm-navbar-height));
+  }
+}

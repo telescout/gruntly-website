@@ -1,0 +1,98 @@
+.howitworks-section {
+  padding: 2rem 5rem;
+
+
+  .description {
+    margin-top: 3em;
+
+    p {
+      font-size: 1.25rem;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 150%;
+      max-width: 32em;
+      margin-bottom: 1.5em;
+    }
+
+    p:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  .steps {
+    display: flex;
+    flex-direction: column;
+    row-gap: 2.8125rem;
+  }
+
+  .step {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 4rem;
+    column-gap: 3.75rem;
+
+    p {
+      margin: 0;
+      max-width: 24.3125em;
+    }
+  }
+
+  .step-number {
+    font-size: 6.25rem;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    // width: 1.2em;
+  }
+
+  .step-number-last {
+    width: 0.63em;
+  }
+
+  .step-img {
+    display: flex;
+    margin-left: auto;
+  }
+
+  .step-img-digest {
+    margin-left: 0;
+  }
+
+  .step-text {
+    p {
+      font-size: 1rem;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 150%;
+    }
+  }
+}
+
+@media screen and (max-width: 996px) {
+  .howitworks-section {
+    padding: 0;
+
+    .step {
+      margin-left: 2rem;
+    }
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .step {
+    flex-wrap: wrap;
+  }
+
+  .step-img {
+    margin-top: 1em;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .howitworks-section {
+    .step {
+      margin-left: 0rem;
+    }
+  }
+}

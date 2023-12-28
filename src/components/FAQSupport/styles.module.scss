@@ -1,30 +1,44 @@
-// styles/faqSupport.scss
-
 .faqSupport {
+  padding: 2rem 5rem;
   button {
     display: flex;
     align-items: center;
     background: none;
     border: none;
     text-align: left;
-    font-weight: bold;
-    padding: 0.5rem;
+    padding: 0 0.5rem;
     width: 100%;
     text-align: left;
     cursor: pointer;
     transition: background-color 0.3s ease;
     position: relative;
-    font-size: 1.2rem;
+    color: #000;
+    font-family: Inter;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
 
     &::before {
       content: "+";
-      font-size: 1.2rem;
-      margin-right: 1rem;
+      margin-right: 0.625em;
       transition: transform 0.3s ease;
+      color: #000;
+      text-align: center;
+      // leading-trim: both;
+      // text-edge: cap;
+
+      /* Bullet FAQ */
+      font-family: Inter;
+      font-size: 2rem;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      padding-bottom: 0.12em;
     }
 
     &:hover {
-      background-color: #f0f0f0;
+      // background-color: #f0f0f0;
     }
   }
 
@@ -33,10 +47,18 @@
 
     & > div {
       margin-top: 0.5rem;
-      background-color: #f9f9f9;
       padding: 0.5rem;
+      padding-bottom: 0;
       display: none; // By default, the answer is hidden
       transition: max-height 0.3s ease;
+
+      & > p {
+        margin: 0;
+      }
+    }
+
+    .answer {
+      padding-left: 3em;
     }
   }
 
@@ -52,12 +74,22 @@
       display: block; // Display the answer when the question is active
     }
   }
+}
 
-  .supportContact {
-    margin-top: 1rem;
-    background-color: #f5f5f5;
-    padding: 0.5rem;
-    border: 1px solid #e0e0e0;
-    border-radius: 5px;
+@media screen and (max-width: 996px) {
+  .faqSupport {
+    padding: 0;
+
+    button {
+      font-size: 1.2rem;
+    }
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .faqSupport {
+    button {
+      margin: .4em 0;
+    }
   }
 }

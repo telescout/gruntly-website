@@ -77,7 +77,7 @@ const TestimonialCarousel: React.FC = () => {
       <div className={styles["testimonial-carousel-items"]}>
       {testimonials.slice(currentIndex, currentIndex + 3).map((testimonial, index) => (
         <div key={index} className={styles["testimonial"]}>
-          <img src={testimonial.imageSrc} alt={testimonial.name} />
+          <img src={testimonial.imageSrc} alt={testimonial.name}/>
           <h3>{testimonial.name}, {testimonial.title}</h3>
           <p>"{testimonial.text}"</p>
         </div>

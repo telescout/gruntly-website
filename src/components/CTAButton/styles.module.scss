@@ -1,21 +1,33 @@
 .ctaButton {
   // background-color: #00CCFF;  /* CTA Color */
-  background-color: var(--ifm-color-primary);  /* CTA Color */
-  color: #FAFAFA;            
-  padding: 12px 24px;
-  border-radius: 6px;
+  background-color: #000;
+    /* CTA Color */
+    padding: 0.5em 1em;
+    border-radius: 0.3em;
   border: none;
   text-align: center;
   text-decoration: none !important;
   display: inline-block;
-  font-size: 1rem;
   font-family: var(--ifm-font-family-base);
   transition: 0.2s ease-out;
   cursor: pointer;
   box-shadow: 2px 2px 12px #8080804D;  /* Accent Color 1 with reduced opacity for shadow */
+  color: #FFF;
+    text-align: center;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
 
 .ctaButton:hover {
-  background-color: #FFD700;  /* Secondary Color for hover effect */
+  background-color: #0305F3;
+    /* Secondary Color for hover effect */
   color: #fff;             /* Accent Color 2 for text contrast */
+}
+
+@media screen and (max-width: 996px) {
+  .ctaButton {
+    font-size: 1rem;
+  }
 }
