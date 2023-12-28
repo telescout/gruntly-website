@@ -7,6 +7,7 @@ import HowItWorks from '../components/HowItWorks';
 import Testimonials from '../Testimonials';
 import FAQSupport from '../components/FAQSupport';
 import Support from '../components/Support';
+import Footer from '../components/Footer';
 
 export default function Home(): React.JSX.Element {
   const { siteConfig } = useDocusaurusContext();
@@ -17,6 +18,7 @@ export default function Home(): React.JSX.Element {
       <Testimonials />
       <FAQSupport />
       <Support />
+      <Footer />
     </Layout>
   )
 }

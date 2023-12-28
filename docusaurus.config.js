@@ -64,12 +64,6 @@ const config = {
 
   plugins: ['docusaurus-plugin-sass'],
   headTags: [{
-    tagName: 'link',
-    attributes: {
-      rel: 'stylesheet',
-      href: 'https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Roboto:wght@400;500&display=swap',
-    },
-  }, {
       tagName: 'link',
       attributes: {
         rel: 'stylesheet',
@@ -128,23 +122,23 @@ const config = {
         },
         ],
       },
-      footer: {
-        style: 'light',
-        links: [
-          {
-            html: `Gruntly - Cutting through the chatter for you.`
-          },
-          {
-            label: 'Terms',
-            to: '/terms-of-service',
-          },
-          {
-            label: 'Privacy',
-            to: '/privacy',
-          },
-        ],
-        copyright: `Copyright © ${new Date().getFullYear()} Gruntly`,
-      },
+      // footer: {
+      //   style: 'light',
+      //   links: [
+      //     {
+      //       html: `Gruntly - Cutting through the chatter for you.`
+      //     },
+      //     {
+      //       label: 'Terms',
+      //       to: '/terms-of-service',
+      //     },
+      //     {
+      //       label: 'Privacy',
+      //       to: '/privacy',
+      //     },
+      //   ],
+      //   copyright: `© ${new Date().getFullYear()} Gruntly`,
+      // },
       prism: {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
