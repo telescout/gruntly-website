@@ -12,7 +12,7 @@ import Footer from '../components/Footer';
 export default function Home(): React.JSX.Element {
   const { siteConfig } = useDocusaurusContext();
   return (
-    <Layout>
+    <Layout description="Efficiently Manage Telegram Content with Gruntly - Discover Gruntly, the ultimate Telegram personal assistant. Tailored daily digests, easy setup, and precise content filtering based on your preferences. Stay informed without the clutter!">
       <Hero />
       <HowItWorks />
       <Testimonials />
