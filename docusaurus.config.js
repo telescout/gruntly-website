@@ -98,7 +98,7 @@ const config = {
       navbar: {
         title: 'Gruntly',
         logo: {
-          alt: 'Gruntly',
+          alt: 'Gruntly Logo',
           src: 'img/logo.svg',
           width: 40,
           height: 40
