@@ -19,7 +19,7 @@ export default function HowItWorks(): JSX.Element {
             <p>Inform Gruntly about your current focus areas and interests on Telegram</p>
           </div>
           <div className={styles["step-img"]}>
-            <img src="/img/message-bio.svg" alt="I'm passionate about hiking and kayaking. I'm always looking for updates on trail conditions and community events related to outdoor adventures. Keeping an eye on gear sales and travel deals is also something I value."/>
+            <img src="/img/message-bio.svg" width={304} height={173} alt="I'm passionate about hiking and kayaking. I'm always looking for updates on trail conditions and community events related to outdoor adventures. Keeping an eye on gear sales and travel deals is also something I value."/>
           </div>
         </div>
         <div className={styles["step"]}>
@@ -29,7 +29,7 @@ export default function HowItWorks(): JSX.Element {
             <p>Provide Gruntly with channel names, group invites, or simply forward a Telegram message</p>
           </div>
           <div className={styles["step-img"]}>
-            <img src="/img/message-links.svg" alt="Telegram channel links"/>
+            <img src="/img/message-links.svg" width={310} height={114} alt="Telegram channel links"/>
           </div>
         </div>
         <div className={styles["step"]}>
@@ -39,7 +39,7 @@ export default function HowItWorks(): JSX.Element {
             <p>That's it! Relax and receive your tailored daily digest, featuring only the messages relevant to you</p>
           </div>
           <div className={styles["step-img"] + ' ' + styles["step-img-digest"]}>
-            <img src="/img/message-digest.svg" alt="🌟 Good Day! Here's Your Digest from Gruntly 🌟 Hi there! Gruntly here, reporting in with the day's relevant snippets curated just for you. Dive in!"/>
+            <img src="/img/message-digest.svg"  width={321} height={197} alt="🌟 Good Day! Here's Your Digest from Gruntly 🌟 Hi there! Gruntly here, reporting in with the day's relevant snippets curated just for you. Dive in!"/>
           </div>
         </div>
         <div className={styles["step"]}>
