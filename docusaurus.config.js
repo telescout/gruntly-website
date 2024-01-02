@@ -100,6 +100,8 @@ const config = {
         logo: {
           alt: 'Gruntly',
           src: 'img/logo.svg',
+          width: 40,
+          height: 40
         },
         items: [
           {
